@@ -4,9 +4,9 @@
 
 MessageWidget::MessageWidget(QWidget *parent) : QWidget(parent) {
     // TODO: Create label, line edit (text input), and button
-    QLabel *label = new QLabel("Placeholder");
-    QLineEdit *lineEdit = new QLineEdit();
-    QPushButton *button = new QPushButton("Update");
+    label = new QLabel();
+    lineEdit = new QLineEdit();
+    button = new QPushButton("Update");
 
     // TODO: Create a vertical layout
     QVBoxLayout *layout = new QVBoxLayout(this);
